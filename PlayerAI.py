@@ -114,7 +114,7 @@ class PlayerAI(BaseAI):
         This heuristic measures pair-wise differences of adjacent tiles. 
         Intuitively, this heuristic measures how easy it is to merge the
         adjacent tiles. A perfectly smooth state has a heuristic of 0 and
-        other states have a neagtive heuristic value.
+        other states have a negative heuristic value.
         """
         smoothness = 0
         for x in xrange(grid.size):
